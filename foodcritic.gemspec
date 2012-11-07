@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.add_dependency('treetop', '~> 1.4.10')
   s.add_dependency('yajl-ruby', '~> 1.1.0')
   s.add_dependency('erubis')
-  s.files = Dir['lib/**/*.rb'] + Dir['*.json']
+  s.files = Dir['lib/**/*.rb'] + Dir['*.json'] + %w{chef_dsl_metadata.json}
   s.required_ruby_version = '>= 1.9.2'
 end
